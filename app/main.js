@@ -43,5 +43,5 @@ function handleCatFileCommand(){
 	const command = new CatFileCommand(flag, commitSHA);
 	gitClient.run(command);
 
-	console.log({flag, commitSHA});
+	// console.log({flag, commitSHA});
 }
